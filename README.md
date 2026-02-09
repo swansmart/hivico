@@ -26,7 +26,7 @@ asyncio.run(main())
 
 - Query device status and info
 - Query / control groups
-- Basic playback control and volume settings
+
 
 ## Home Assistant integration
 
