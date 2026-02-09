@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hivico"
+version = "0.1.0"
+description = "Hivico device API client for HiVi speakers"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "Apache-2.0"
+authors = [{ name = "swansmart" }]
+dependencies = ["aiohttp>=3.8.0"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Home Automation",
+]
+
+[project.urls]
+Homepage = "https://github.com/swansmart/hivico"
+Repository = "https://github.com/swansmart/hivico"
+Issues = "https://github.com/swansmart/hivico/issues"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
